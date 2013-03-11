@@ -1,0 +1,4 @@
+#Hallar los datos de un diputado en base a uno de sus nombres
+SELECT nombre, correo, estado, distrito, partido, twitter FROM diputados WHERE nombre LIKE '%María%' LIMIT 3;
+
+
